@@ -1,0 +1,19 @@
+# Ignore config file and environment variables
+config.go
+.env
+
+# Ignore Go build files
+*.exe
+*.out
+*.test
+*.log
+
+# Ignore Go dependencies (if using modules)
+vendor/
+bin/
+pkg/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
